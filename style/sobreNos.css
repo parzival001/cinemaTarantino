@@ -1,0 +1,53 @@
+@keyframes fundo{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: #cccccc10;
+    }
+    100%{
+        background-color: yellow;
+    }
+
+}
+
+main{
+    height: 100%;
+    background-color: black;
+    padding: 300px;
+    align-items: center;
+    background-image: url(../image/centralCinema.jpg);
+}
+#nos{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    animation-name: fundo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;   
+}
+#textoSobreNos{
+    margin: 0px 10px 0px 42%;
+    text-align: center;
+    animation: type 3s steps(20) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas, "Courier New", monospace;
+    border-right: 4px solid black;
+    width: 23ch;
+   
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0ch;
+    }
+    100% {
+      width: 9.5ch;
+    }
+  }
