@@ -25,6 +25,7 @@ main{
 
 body{
     background-image: url(../image/centralCinema.jpg);
+    background-size: cover;
 }
 
     

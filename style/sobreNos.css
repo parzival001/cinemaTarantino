@@ -17,6 +17,7 @@ main{
     padding: 300px;
     align-items: center;
     background-image: url(../image/centralCinema.jpg);
+    background-size: cover;
 }
 #nos{
     width: 100%;
